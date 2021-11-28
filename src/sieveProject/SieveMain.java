@@ -3,7 +3,7 @@ Kenneth P. Figuerado III
 DUE: 11/16/2021 @ 2359
 Professor: Hemdal, Erik
 Notes:
-- WORKAROUND: Ant does not allow for Systm.in so instead of that I changed the build.xml file to support the input
+- WORKAROUND:  Ant does not allow for Systm.in so instead of that I changed the build.xml file to support the input
 	- I left the scanner objects in the java project if there is a need for them when running it however they were not used during the running and compilation of the project
 */
 
