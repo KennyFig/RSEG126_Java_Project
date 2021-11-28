@@ -12,7 +12,7 @@ package sieveProject;
 //import java.util.Scanner;
 
 public class SieveMain {
-	public static void main(String args[]) {
+	public static void BREAKmain(String args[]) {
 		//Prompt user for input
 		//Scanner scanner = new Scanner(System.in);
 		//System.out.print("Please enter your maximum integer: "); 
