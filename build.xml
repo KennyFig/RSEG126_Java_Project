@@ -38,7 +38,7 @@
     </target>
     <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
     <target name="SieveMain">
-        <!--<input message="Please enter your maximum integer: " addproperty="inputvalue"  defaultvalue="0" />-->
+        <input message="Please enter your maximum integer: " addproperty="inputvalue"  defaultvalue="100" />
         <java classname="sieveProject.SieveMain" failonerror="true" fork="yes">
             <classpath refid="run.SieveMain.classpath"/>
         	<arg value="${inputvalue}"/>
